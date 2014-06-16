@@ -44,6 +44,7 @@ var listeners = {
 		}
 	},
 	mousewheel: function (e) {
+		e.preventDefault();
 		var chg = 1 + (e.originalEvent.deltaY < 0 ? 0.1:-0.1);
 		var scale = transformation.scale * chg;
 		transformation.scale = scale;
