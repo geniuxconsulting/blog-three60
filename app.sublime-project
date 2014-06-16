@@ -1,0 +1,30 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": ".",
+			"file_exclude_patterns": [
+				".meteor/*",
+				".assets/",
+				".build/",
+				"node_modules/",
+				"packages/GAnalytics",
+				"packages/accounts-ui-bootstrap-3",
+				"packages/fast-render",
+				"packages/font-awesome-4-less",
+				"packages/moment",
+				"packages/npm",
+				"packages/blaze-layout",
+				"packages/hammer",
+				"packages/iron-router",
+				"packages/iron-transitioner",
+				"public/fontawesome",
+				"packages/marked",
+				"packages/pdfjs",
+				"public/pdfjs",
+				".demeteorized/*",
+				".openshift/*"]
+		}
+	]
+}
