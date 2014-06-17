@@ -325,7 +325,7 @@ Follow the stps below to try it out locally:
 		},
 		// get the current zoom value
 		getZoom: function() {
-			return options.fov / options._hfov;
+			return options.fov / (options._hfov || options.fov);
 		},
 		// exposes the video object to give the possibility of control to external methods
 		getVideo: function() {
