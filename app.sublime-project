@@ -8,6 +8,7 @@
 				".meteor/*",
 				".assets/",
 				".build/",
+				".page/",
 				"node_modules/",
 				"packages/GAnalytics",
 				"packages/accounts-ui-bootstrap-3",

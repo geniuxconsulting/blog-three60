@@ -20,52 +20,20 @@
     "node": true,
     "strict": false,
     "globals": [
-    // global
+        // global
         "confirm",
         "console",
         "requestAnimationFrame",
         "$",
         "MediaStreamTrack",
-    // meteor
-        "Template",
-        "Meteor",
-        "Handlebars",
-        "Session",
-        "Deps",
-        "HTTP",
-        "WebApp",
-        "Npm",
-    // mrt packages
-        "Router",
-        "Accounts",
+        // libs
         "_",
-        "moment",
-        "Alerts",
-        "Hammer",
-        "bootbox",
-    // custom packages
-        "PDFJS",
-        "PDFViewer",
-        "fixie",
-        "Wire",
-        "File",
-        "uuid",
-        "Progress",
-        "Capturer",
-        "SpringLogin",
+        "THREE",
+        "Detector",
+        "Stats",
+        // app vars
         "three60",
-        "BinaryClient",
-    // app
-        "Fixtures",
-        "PropertiesCollection",
-        "MediasCollection",
-        "MediaGroupsCollection",
-        "WorkspacesCollection",
-        "App",
-        "RoomsCollection",
-        "ChromeApp",
-        "WorkspaceStream",
-        "RFIDStream",
-        "LobbyStream"
+        "DUMMY"
+
     ]
 }
