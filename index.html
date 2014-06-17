@@ -2,27 +2,31 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <script type="text/javascript" src="js/lib/underscore-min.js"></script>
   <script type="text/javascript" src="js/lib/jquery.min.js"></script>
   <script type="text/javascript" src="js/lib/jquery.hammer.min.js"></script>
   <script type="text/javascript" src="js/lib/three.min.js"></script>
   <script type="text/javascript" src="js/lib/detector.js"></script>
   <script type="text/javascript" src="js/lib/stats.js"></script>
 
-  <script type="text/javascript" src="js/api.js"></script>
 
-  <script type="text/javascript" src="js/app.js"></script>
-  <script type="text/javascript" src="js/three60_helper.js"></script>
-  <script type="text/javascript" src="js/viewer_video_three60.js"></script>
+  <script type="text/javascript" src="js/three60.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-	<div id="three60" style="position: absolute; left:0px; top:0px; bottom: 0px; right: 0px; overflow: hidden;">
-   <script type="text/javascript">
+
+  <div id="three60" style="position: absolute; left:0px; top:0px; bottom: 0px; right: 0px; overflow: hidden;">
+  </div>
+
+
+  <script type="text/javascript">
     init({
-     $target: $('#three60'),
-     videoURL: '/blog-three60/videos/test2.mp4'
-   });
+      $target: $('#three60'),
+      videoURL: '/videos/test.mp4'
+    });
   </script>
+
+
+  <!-- GOOGLE ANALYTICS -->
 
   <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
@@ -34,4 +38,6 @@
       pageTracker._trackPageview();
     } catch(err) {}
   </script>
-  </body></html>
+
+  <!-- /GOOGLE ANALYTICS -->
+</body></html>
