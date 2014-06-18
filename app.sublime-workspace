@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"after",
+				"afterVideoLoad"
+			],
+			[
+				"loaded",
+				"loadedCallback"
+			],
+			[
 				"Mete",
 				"Meteor.startup	Meteor.startup(fn)"
 			],
@@ -74,10 +86,6 @@
 			[
 				"ite",
 				"itemData"
-			],
-			[
-				"for",
-				"forEach	Meteor: cursor.forEach(callback)"
 			],
 			[
 				"dot-arro",
@@ -506,57 +514,37 @@
 			[
 				"page",
 				"pageX"
-			],
-			[
-				"prev",
-				"prevCenter"
-			],
-			[
-				"pdf",
-				"pdf"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "client/main.html",
-			"settings":
-			{
-				"buffer_size": 68,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "client/less/main.less",
-			"settings":
-			{
-				"buffer_size": 150,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/index.html",
-			"settings":
-			{
-				"buffer_size": 314,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 172.0,
 		"selected_items":
 		[
 			[
-				"tabs",
-				"Indentation: Convert to Tabs"
-			],
-			[
 				"spaces",
 				"Indentation: Convert to Spaces"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
 			],
 			[
 				"javas",
@@ -623,20 +611,12 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
 				"pack",
 				"Package Control: List Packages"
 			],
 			[
 				"bookm",
 				"Bookmarks: Clear All"
-			],
-			[
-				"json",
-				"Set Syntax: JSON"
 			],
 			[
 				"coffee",
@@ -755,7 +735,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 710.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -778,6 +758,29 @@
 	},
 	"file_history":
 	[
+		"/home/matyas/work/blog/blog-three60/public/js/three60.js",
+		"/home/matyas/work/blog/blog-three60/.jshintrc",
+		"/home/matyas/work/blog/blog-three60/public/js/main.js",
+		"/home/matyas/work/blog/blog-three60/main.css",
+		"/home/matyas/work/blog/blog-three60/.page/index.html",
+		"/home/matyas/work/blog/blog-three60/README.md",
+		"/home/matyas/work/blog/blog-three60/public/index.html",
+		"/home/matyas/work/blog/blog-three60/client/less/main.less",
+		"/home/matyas/work/blog/blog-three60/LICENSE",
+		"/home/matyas/work/blog/blog-three60/.git/config",
+		"/home/matyas/work/blog/blog-three60/public/js/viewer_video_three60.js",
+		"/home/matyas/work/blog/blog-three60/public/js/three60_helper.js",
+		"/home/matyas/work/blog/blog-three60/app.sublime-project",
+		"/home/matyas/work/blog/blog-three60/public/videos/test.mp4",
+		"/home/matyas/work/blog/blog-three60/.page/js/three60_helper.js",
+		"/home/matyas/work/blog/blog-three60/.page/js/api.js",
+		"/home/matyas/work/blog/blog-three60/.page/videos/test.mp4",
+		"/home/matyas/.ssh/id_rsa_gnx.pub",
+		"/home/matyas/.ssh/config",
+		"/home/matyas/work/blog/blog-three60/.gitignore",
+		"/home/matyas/work/blog/blog-three60/client/main.html",
+		"/home/matyas/work/blog/blog-three60/.page/js/viewer_video_three60.js",
+		"/home/matyas/work/blog/blog-three60/.page/.git/config",
 		"/home/matyas/work/blog/three60/public/index_files/detector.js",
 		"/home/matyas/work/blog/three60/public/index_files/sample.js",
 		"/home/matyas/work/liebherr/expo2/lib/helpers.js",
@@ -882,34 +885,11 @@
 		"/home/matyas/work/liebherr/expo2/packages/blaze-layout/layout.js",
 		"/home/matyas/work/liebherr/expo2/packages/editor/editor.import.less",
 		"/home/matyas/work/liebherr/expo2/packages/npm/bin/meteor-npm",
-		"/home/matyas/work/liebherr/expo2/.misc/vm/setup.sh",
-		"/home/matyas/work/liebherr/expo2/client/views/elements/menu/menu.html",
-		"/home/matyas/work/liebherr/expo2/.uploads/G6qb2wRF87sZkwwop",
-		"/home/matyas/work/liebherr/expo2/packages/pdfjs/lib/pdf.worker.js",
-		"/home/matyas/work/liebherr/expo2/packages/pdfjs/smart.json",
-		"/home/matyas/work/liebherr/expo2/packages/pdfjs/lib/pdf.js",
-		"/home/matyas/work/liebherr/expo2/client/less/mixins.import.less",
-		"/home/matyas/work/liebherr/expo2/packages/panels/editor.import.less",
-		"/home/matyas/work/liebherr/expo2/packages/bootstrap3-less/lib/less/panels.import.less",
-		"/home/matyas/work/liebherr/expo2/packages/panels/editor.js",
-		"/home/matyas/work/liebherr/expo2/packages/panels/editor.html",
-		"/home/matyas/work/liebherr/expo2/client/views/dot/dots.js",
-		"/home/matyas/work/liebherr/expo2/public/item.js",
-		"/home/matyas/work/liebherr/expo2/packages/bootbox/package.js",
-		"/home/matyas/work/liebherr/expo2/packages/bootstrap3-less/lib/less/utilities.import.less",
-		"/home/matyas/work/liebherr/expo2/packages/moment/lib/moment/test/moment/is_after.js",
-		"/home/matyas/work/liebherr/expo2/packages/moment/lib/moment/lang/it.js",
-		"/home/matyas/work/liebherr/expo2/packages/bootstrap3-less/lib/less/badges.import.less",
-		"/home/matyas/work/liebherr/expo2/packages/bootbox/.gitmodules",
-		"/home/matyas/work/liebherr/expo2/packages/bootbox/.gitignore",
-		"/home/matyas/work/liebherr/expo2/packages/bootstrap-3/bootstrap-override.css",
-		"/home/matyas/work/liebherr/expo2/packages/editor/editor.less",
-		"/home/matyas/work/liebherr/expo2/packages/editor/.gitignore",
-		"/home/matyas/work/liebherr/expo2/packages/file/.npm/package/node_modules/mime/package.json"
+		"/home/matyas/work/liebherr/expo2/.misc/vm/setup.sh"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -949,6 +929,85 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"\\$",
+			"videoURL",
+			"test",
+			"initControls",
+			"\\$",
+			"\n##",
+			"##",
+			"###",
+			"##",
+			")`",
+			"## `",
+			"##",
+			"Exposes",
+			"(",
+			"// ",
+			"function",
+			"\n",
+			",`",
+			": ",
+			"fov",
+			"scale",
+			"_hfov",
+			"reset",
+			"return",
+			"setFOV",
+			"transformation",
+			"scale0",
+			"setFOV",
+			"camera",
+			"setFOV",
+			"reset",
+			"scale0",
+			"Stats",
+			"H_ROT_AX",
+			"initCam",
+			"loadedCallback",
+			"animate",
+			"// the ",
+			"the ",
+			"videoTexture",
+			"scene",
+			"sphere",
+			"movieScreen",
+			"around",
+			"horizontal",
+			"INITIALIZED",
+			"play",
+			"animate",
+			"console",
+			"afterVideoLoad",
+			"initRenderer",
+			"function",
+			"videoTexture",
+			"scene",
+			"init3D",
+			"useCanvas",
+			"animate",
+			"H_ROT_AX",
+			"PAN",
+			" * PAN_VELOCITY",
+			"PAN_VELOCITY",
+			"useCanvas",
+			"console.log",
+			"_\\.",
+			"camerasPerView",
+			"size",
+			"three60_helper",
+			"App.",
+			"build",
+			"Detector",
+			"THREE",
+			"three60.Detector",
+			"THREE",
+			"three60.THREE",
+			"three60.",
+			"cameras",
+			"video",
+			"App.three60",
+			"UA-",
 			"index_files",
 			"./",
 			"none",
@@ -997,86 +1056,7 @@
 			"TABLET_VIDEO_WIDTH",
 			"\"",
 			"TABLET_VIDEO_WIDTH",
-			"default",
-			"value",
-			"insert",
-			"validators",
-			"pp",
-			"postProcessors",
-			"postProcessor",
-			"prop",
-			"postProcessor",
-			"key",
-			"dragTimeout",
-			"text",
-			"btn-text",
-			"save",
-			"times",
-			"pre",
-			"progress",
-			"PanelCollection",
-			"save",
-			"Submit",
-			"primary",
-			"true",
-			"'submit",
-			"update",
-			" + ",
-			"Meteor.is",
-			"default",
-			"App.property.set",
-			"value",
-			"value:",
-			"value",
-			"email",
-			"exampleInputEmail1",
-			"panel",
-			"addGlobal",
-			"menu'\\).expose\\(\\{",
-			"menu').expose({",
-			"App.component('modules.dot.menu')",
-			"standard",
-			"client",
-			"app-component",
-			"component",
-			"DRAG",
-			"DRAG_TIMEOUT",
-			"App.auth.isAdmin",
-			"PropertiesCollection",
-			"ViewStates",
-			"prop",
-			"FRIDGE_N",
-			"\"",
-			"value",
-			"typeof App",
-			"fixie",
-			"key",
-			"value",
-			"key",
-			"prop",
-			"TABLET_VIDEO_WIDTH",
-			"generateVideoForTablet",
-			"path",
-			"ViewStates\\.remove",
-			"ViewStates",
-			"blacklisted(c",
-			"blacklisted",
-			"blacklistIds",
-			"ProgressBarsCollection",
-			"editor",
-			"console.log",
-			"EditorCollection",
-			"null",
-			"blacklisted",
-			"console.log",
-			"+",
-			"4",
-			"comp",
-			"positionImage",
-			"trace",
-			"positionImage",
-			"Deps.autorun",
-			"rendered"
+			"default"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1108,102 +1088,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "client/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 68,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								68,
-								68
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		},
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 1,
-					"file": "client/less/main.less",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 150,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								85,
-								85
-							]
-						],
-						"settings":
-						{
-							"_anf_new": "",
-							"syntax": "Packages/LESS/LESS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "public/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 314,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								138,
-								138
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1230,16 +1131,29 @@
 				0,
 				2,
 				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			],
+			[
+				1,
+				1,
+				2,
+				2
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.5,
+			0.0,
 			1.0
 		],
 		"rows":
 		[
+			0.0,
 			0.0,
 			1.0
 		]
@@ -1260,6 +1174,46 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"less",
+				"client/less/main.less"
+			],
+			[
+				"thre",
+				"public/js/three60.js"
+			],
+			[
+				"jshin",
+				".jshintrc"
+			],
+			[
+				"v",
+				"public/js/viewer_video_three60.js"
+			],
+			[
+				"app",
+				"app.sublime-project"
+			],
+			[
+				"three",
+				".page/js/three60_helper.js"
+			],
+			[
+				"apijs",
+				".page/js/api.js"
+			],
+			[
+				"viewjs",
+				".page/js/viewer_video_three60.js"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"indexhtm",
+				".page/index.html"
+			],
 			[
 				"headl",
 				"client/less/elements/header.import.less"
@@ -1731,46 +1685,6 @@
 			[
 				"fixie",
 				"packages/fixie/fixie.js"
-			],
-			[
-				"ws.js",
-				".misc/raspi_app/nodecap/ws.js"
-			],
-			[
-				"workjs",
-				".misc/chrome_apps/projector/js/workspace.js"
-			],
-			[
-				"projmanif",
-				".misc/chrome_apps/projector/manifest.json"
-			],
-			[
-				"workspacethree",
-				"client/views/pages/workspace/types/workspace_media_video_three60.js"
-			],
-			[
-				"raspi",
-				"client/views/pages/capture/raspi_cam.js"
-			],
-			[
-				"maincss",
-				".misc/chrome_apps/common/styles/main.css"
-			],
-			[
-				"createz",
-				".misc/create_zip.sh"
-			],
-			[
-				"layoujs",
-				"client/views/layout/layout.js"
-			],
-			[
-				"contrllerless",
-				"client/less/views/controller.import.less"
-			],
-			[
-				"mainles",
-				"client/less/main.less"
 			]
 		],
 		"width": 0.0
@@ -1780,6 +1694,10 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"appsu",
+				"~/work/liebherr/expo2/app.sublime-project"
+			],
 			[
 				"",
 				"~/work/liebherr/expo/dev/expo.sublime-project"
@@ -1802,7 +1720,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 339.0,
+	"side_bar_width": 230.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

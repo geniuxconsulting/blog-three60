@@ -5,23 +5,35 @@
   <script type="text/javascript" src="js/lib/jquery.min.js"></script>
   <script type="text/javascript" src="js/lib/jquery.hammer.min.js"></script>
   <script type="text/javascript" src="js/lib/three.min.js"></script>
+
+  <script type="text/javascript" src="js/lib/THREEx.FullScreen.js"></script>
   <script type="text/javascript" src="js/lib/detector.js"></script>
   <script type="text/javascript" src="js/lib/stats.js"></script>
 
 
   <script type="text/javascript" src="js/three60.js"></script>
   <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-
-  <div id="three60" style="position: absolute; left:0px; top:0px; bottom: 0px; right: 0px; overflow: hidden;">
+  <div id="three60" style="">
+  </div>
+  <div class="controls">
+    <button class="fullscreen btn">
+      <span class="up icon">
+        &#8599;
+      </span>
+      <span class="down icon">
+        &#8601;
+      </span>
+    </button>
   </div>
 
 
   <script type="text/javascript">
     init({
       $target: $('#three60'),
-      videoURL: '/videos/test.mp4'
+      videoURL: './videos/test.mp4'
     });
   </script>
 

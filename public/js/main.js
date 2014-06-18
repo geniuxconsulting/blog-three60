@@ -39,9 +39,30 @@
 			}).on(k, v);
 		});
 		$('#three60').on('mousewheel', listeners.mousewheel);
+		$('.fullscreen.btn').on('click', function() {
+			if (THREEx.FullScreen.activated()) {
+				THREEx.FullScreen.cancel();
+				$('.fullscreen.btn .up').show();
+				$('.fullscreen.btn .down').hide();
+			} else {
+				THREEx.FullScreen.request();
+				$('.fullscreen.btn .up').hide();
+				$('.fullscreen.btn .down').show();
+			}
+		});
 	};
 
 	context.init = function(opts) {
+		$('.fullscreen.btn .down').hide();
+		$(window).on('resize', function() {
+			var size = {
+				width: window.innerWidth,
+				height: window.innerHeight
+			};
+			console.log(size);
+			$(opts.$target).css(size).attr(size);
+			three60.resize(size);
+		});
 		three60.init({
 			fov: 96,
 			width: opts.$target.width(),
