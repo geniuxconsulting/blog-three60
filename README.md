@@ -15,6 +15,8 @@ Initializes the module, which consists of:
 
 #### *options* is an object with the following properties
 
+* height: the height of the destination video output `default: 0`
+* width: the width of the destination video output `default: 0`
 * videoURL: the URL of the video to be loaded (must be in same domain or from CORS enabled server) `default:  undefined`
 * target: the target element where to put the canvas `default:  undefined`
 * fov: the horizontal FOV of a projection `default:  90.0`
