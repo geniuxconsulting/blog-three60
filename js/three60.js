@@ -70,6 +70,10 @@ Follow the stps below to try it out locally:
 (function(context) {
 
 	var DEFAULT_OPTIONS = {
+		// the height of the destination video output
+		height: 0,
+		// the width of the destination video output
+		width: 0,
 		// the URL of the video to be loaded (must be in same domain or from CORS enabled server)
 		videoURL: undefined,
 		// the target element where to put the canvas
@@ -121,7 +125,7 @@ Follow the stps below to try it out locally:
 	var stats = null;
 
 	// simple implementation of $.extend / _.extend to cut dependency
-	var extend = function (target) {
+	var extend = function(target) {
 		for (var i = 1; i < arguments.length; i++) {
 			var o = arguments[i];
 			for (var k in o) {
@@ -330,6 +334,13 @@ Follow the stps below to try it out locally:
 		// exposes the video object to give the possibility of control to external methods
 		getVideo: function() {
 			return video;
+		},
+		// resizes the renderer output. The parameter object should have a width & height property
+		resize: function(size) {
+			renderer.setSize(size.width, size.height);
+			options.width = size.width;
+			options.width = size.width;
+			initCam();
 		}
 	};
 
