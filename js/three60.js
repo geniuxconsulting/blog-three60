@@ -101,7 +101,7 @@ Follow the stps below to try it out locally:
 	var SPHERE_RADIUS = 1024;
 	// near & far planes
 	var NEAR = 10,
-		FAR = 10000;
+	FAR = 10000;
 	// the axis horizontal rotation are made around when panning
 	var H_ROT_AX = new THREE.Vector3(0, 1, 0);
 	// the axis vertical rotation are made around when panning
@@ -185,16 +185,23 @@ Follow the stps below to try it out locally:
 			videoTexture.needsUpdate = true;
 		}
 		renderer.render(scene, camera);
-		stats.update();
+		if (typeof Stats !== 'undefined') {
+			stats.update();
+		}
 	};
 
 	// create and initialize the renderer (the WebGL canvas)
 	var initRenderer = function() {
+		console.log('init renderer');
+		console.log(typeof Detector);
+		console.log(typeof Detector.webgl);
 		if (Detector.webgl) {
+			console.log('WebGL support');
 			renderer = new THREE.WebGLRenderer({
 				antialias: false
 			});
 		} else {
+			console.log('No WebGL support');
 			renderer = new THREE.CanvasRenderer();
 			if (typeof console !== 'undefined') {
 				console.log('No WebGL support');
@@ -206,11 +213,13 @@ Follow the stps below to try it out locally:
 
 	// init the stats object and add it to the dom
 	var initStats = function() {
-		stats = new Stats();
-		stats.domElement.style.position = 'absolute';
-		stats.domElement.style.bottom = '0px';
-		stats.domElement.style.zIndex = 100;
-		options.target.appendChild(stats.domElement);
+		if (typeof Stats !== 'undefined') {
+			stats = new Stats();
+			stats.domElement.style.position = 'absolute';
+			stats.domElement.style.bottom = '0px';
+			stats.domElement.style.zIndex = 100;
+			options.target.appendChild(stats.domElement);
+		}
 	};
 
 	// load the video in a html5 video object, and notify the callback function when it's ready
@@ -293,7 +302,7 @@ Follow the stps below to try it out locally:
 				height: window.innerHeight
 			},
 			opts
-		);
+			);
 
 		initVideo(afterVideoLoad);
 	};
